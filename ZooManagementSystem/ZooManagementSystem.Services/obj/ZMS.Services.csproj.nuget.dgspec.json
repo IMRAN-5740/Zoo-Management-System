@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Services\\ZMS.Services.csproj": {}
+  },
+  "projects": {
+    "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\ZMS.Databases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\ZMS.Databases.csproj",
+        "projectName": "ZMS.Databases",
+        "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\ZMS.Databases.csproj",
+        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
+        "outputPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj": {
+                "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj",
+        "projectName": "ZMS.Models",
+        "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj",
+        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
+        "outputPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Services\\ZMS.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Services\\ZMS.Services.csproj",
+        "projectName": "ZMS.Services",
+        "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Services\\ZMS.Services.csproj",
+        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
+        "outputPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\ZMS.Databases.csproj": {
+                "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\ZMS.Databases.csproj"
+              },
+              "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj": {
+                "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

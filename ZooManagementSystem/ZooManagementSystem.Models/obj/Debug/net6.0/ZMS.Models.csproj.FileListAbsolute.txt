@@ -1,0 +1,12 @@
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\bin\Debug\net6.0\ZMS.Models.deps.json
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\bin\Debug\net6.0\ZMS.Models.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\bin\Debug\net6.0\ZMS.Models.pdb
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\obj\Debug\net6.0\ZMS.Models.csproj.AssemblyReference.cache
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\obj\Debug\net6.0\ZMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\obj\Debug\net6.0\ZMS.Models.AssemblyInfoInputs.cache
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\obj\Debug\net6.0\ZMS.Models.AssemblyInfo.cs
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\obj\Debug\net6.0\ZMS.Models.csproj.CoreCompileInputs.cache
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\obj\Debug\net6.0\ZMS.Models.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\obj\Debug\net6.0\refint\ZMS.Models.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\obj\Debug\net6.0\ZMS.Models.pdb
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Models\obj\Debug\net6.0\ref\ZMS.Models.dll

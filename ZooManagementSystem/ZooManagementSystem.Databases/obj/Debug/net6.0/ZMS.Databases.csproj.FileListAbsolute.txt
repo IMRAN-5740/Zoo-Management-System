@@ -1,0 +1,17 @@
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\bin\Debug\net6.0\ZMS.Databases.deps.json
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\bin\Debug\net6.0\ZMS.Databases.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\bin\Debug\net6.0\ZMS.Databases.pdb
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\bin\Debug\net6.0\ZMS.Models.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\bin\Debug\net6.0\ZMS.Models.pdb
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\ZMS.Databases.csproj.AssemblyReference.cache
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\ZMS.Databases.GeneratedMSBuildEditorConfig.editorconfig
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\ZMS.Databases.AssemblyInfoInputs.cache
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\ZMS.Databases.AssemblyInfo.cs
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\ZMS.Databases.csproj.CoreCompileInputs.cache
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\ZMS.Databases.csproj.CopyComplete
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\ZMS.Databases.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\refint\ZMS.Databases.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\ZMS.Databases.pdb
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\ref\ZMS.Databases.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\bin\Debug\net6.0\ZMS.Databases.runtimeconfig.json
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Databases\obj\Debug\net6.0\ZMS.Databases.genruntimeconfig.cache
