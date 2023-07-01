@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ZMS.Services.Abstractions\ZMS.Services.Abstractions.csproj" />
     <ProjectReference Include="..\ZooManagementSystem.Models\ZMS.Models.csproj" />
     <ProjectReference Include="..\ZooManagementSystem.Services\ZMS.Services.csproj" />
     <ProjectReference Include="..\ZooManagementSystem.ViewModels\ZMS.ViewModels.csproj" />

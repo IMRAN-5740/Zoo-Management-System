@@ -1,0 +1,74 @@
+﻿@model Animal
+@{
+    ViewData["Title"] = "Edit";
+}
+<br />
+
+<style>
+    .col-3 img{
+        border-radius:5px; 
+        border:solid;
+        border-color:aqua;
+    }
+</style>
+<h2 class="text-info">Edit Animal</h2>
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <div class="p-4 rounded border row">
+        
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        
+        <div class="col-8">
+            
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Name"></label>
+                </div>
+                <div class="col-8">
+                    <input type="hidden"asp-for="Id" />
+                   
+                    <input asp-for="Name" class="form-control" />
+
+                </div>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Origin"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Origin" class="form-control" />
+
+                </div>
+                <span asp-validation-for="Origin" class="text-danger"></span>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Quantity"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Quantity" class="form-control" />
+
+                </div>
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+
+            
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Update" />
+                <a asp-action="Index" class="btn btn-success"> <i class="fa-solid fa-arrow-right-to-bracket"></i>&nbsp;Back to List</a>
+            </div>
+        </div>
+       
+
+        
+    </div>
+</form>
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial.cshtml");
+    }
+    }
+
+

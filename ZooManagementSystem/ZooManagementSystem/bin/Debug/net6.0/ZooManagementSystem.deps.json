@@ -11,6 +11,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.8",
           "ZMS.Models": "1.0.0",
           "ZMS.Services": "1.0.0",
+          "ZMS.Services.Abstractions": "1.0.0",
           "ZMS.ViewModels": "1.0.0"
         },
         "runtime": {
@@ -718,10 +719,19 @@
       "ZMS.Services/1.0.0": {
         "dependencies": {
           "ZMS.Databases": "1.0.0",
-          "ZMS.Models": "1.0.0"
+          "ZMS.Models": "1.0.0",
+          "ZMS.Services.Abstractions": "1.0.0"
         },
         "runtime": {
           "ZMS.Services.dll": {}
+        }
+      },
+      "ZMS.Services.Abstractions/1.0.0": {
+        "dependencies": {
+          "ZMS.Models": "1.0.0"
+        },
+        "runtime": {
+          "ZMS.Services.Abstractions.dll": {}
         }
       },
       "ZMS.ViewModels/1.0.0": {
@@ -1224,6 +1234,11 @@
       "sha512": ""
     },
     "ZMS.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZMS.Services.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

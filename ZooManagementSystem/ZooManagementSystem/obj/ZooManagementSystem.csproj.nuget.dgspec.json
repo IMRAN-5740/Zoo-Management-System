@@ -4,6 +4,65 @@
     "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem\\ZooManagementSystem.csproj": {}
   },
   "projects": {
+    "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj",
+        "projectName": "ZMS.Services.Abstractions",
+        "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\imran\\.nuget\\packages\\",
+        "outputPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj": {
+                "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\ZMS.Databases.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -158,6 +217,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj": {
+                "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj"
+              },
               "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\ZMS.Databases.csproj": {
                 "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\ZMS.Databases.csproj"
               },
@@ -276,6 +338,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj": {
+                "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj"
+              },
               "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj": {
                 "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj"
               },

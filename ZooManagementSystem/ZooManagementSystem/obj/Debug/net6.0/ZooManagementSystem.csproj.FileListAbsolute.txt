@@ -93,3 +93,5 @@ E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem\bin\Debug\net6.
 E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem\bin\Debug\net6.0\System.Text.Json.dll
 E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem\bin\Debug\net6.0\ZMS.Services.Abstractions.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem\bin\Debug\net6.0\ZMS.Services.Abstractions.pdb

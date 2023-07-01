@@ -11,8 +11,6 @@ namespace ZMS.Models.EntityModels
 {
     public class Animal
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
         [DisplayName("Animal Name")]

@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooManagementSystem", "ZooManagementSystem\ZooManagementSystem.csproj", "{B17E180C-DC7F-4472-9F6E-A95E43CA2B39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZooManagementSystem", "ZooManagementSystem\ZooManagementSystem.csproj", "{B17E180C-DC7F-4472-9F6E-A95E43CA2B39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZMS.Models", "ZooManagementSystem.Models\ZMS.Models.csproj", "{C2CDCDB6-76B2-4CD7-81C1-E8642143C993}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZMS.Models", "ZooManagementSystem.Models\ZMS.Models.csproj", "{C2CDCDB6-76B2-4CD7-81C1-E8642143C993}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZMS.Databases", "ZooManagementSystem.Databases\ZMS.Databases.csproj", "{F3F5256A-22F1-4D4B-8BA2-288D1FB843C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZMS.Databases", "ZooManagementSystem.Databases\ZMS.Databases.csproj", "{F3F5256A-22F1-4D4B-8BA2-288D1FB843C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZMS.Services", "ZooManagementSystem.Services\ZMS.Services.csproj", "{092FB307-A307-45CE-B9CA-4CE24F70B5F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZMS.Services", "ZooManagementSystem.Services\ZMS.Services.csproj", "{092FB307-A307-45CE-B9CA-4CE24F70B5F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZMS.ViewModels", "ZooManagementSystem.ViewModels\ZMS.ViewModels.csproj", "{559FA4EF-E7DF-4D4C-B1A8-85DD549CA02A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZMS.ViewModels", "ZooManagementSystem.ViewModels\ZMS.ViewModels.csproj", "{559FA4EF-E7DF-4D4C-B1A8-85DD549CA02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZMS.Services.Abstractions", "ZMS.Services.Abstractions\ZMS.Services.Abstractions.csproj", "{5115B8BD-6737-4D8D-9E75-DC1C38B42E24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{559FA4EF-E7DF-4D4C-B1A8-85DD549CA02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{559FA4EF-E7DF-4D4C-B1A8-85DD549CA02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{559FA4EF-E7DF-4D4C-B1A8-85DD549CA02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5115B8BD-6737-4D8D-9E75-DC1C38B42E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5115B8BD-6737-4D8D-9E75-DC1C38B42E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5115B8BD-6737-4D8D-9E75-DC1C38B42E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5115B8BD-6737-4D8D-9E75-DC1C38B42E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

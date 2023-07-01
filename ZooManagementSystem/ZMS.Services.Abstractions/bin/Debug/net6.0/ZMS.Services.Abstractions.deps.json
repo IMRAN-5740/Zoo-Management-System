@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ZMS.Services.Abstractions/1.0.0": {
+        "dependencies": {
+          "ZMS.Models": "1.0.0"
+        },
+        "runtime": {
+          "ZMS.Services.Abstractions.dll": {}
+        }
+      },
+      "ZMS.Models/1.0.0": {
+        "runtime": {
+          "ZMS.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZMS.Services.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZMS.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

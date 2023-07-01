@@ -1,0 +1,15 @@
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\bin\Debug\net6.0\ZMS.Services.Abstractions.deps.json
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\bin\Debug\net6.0\ZMS.Services.Abstractions.dll
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\bin\Debug\net6.0\ZMS.Services.Abstractions.pdb
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\bin\Debug\net6.0\ZMS.Models.dll
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\bin\Debug\net6.0\ZMS.Models.pdb
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\obj\Debug\net6.0\ZMS.Services.Abstractions.csproj.AssemblyReference.cache
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\obj\Debug\net6.0\ZMS.Services.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\obj\Debug\net6.0\ZMS.Services.Abstractions.AssemblyInfoInputs.cache
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\obj\Debug\net6.0\ZMS.Services.Abstractions.AssemblyInfo.cs
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\obj\Debug\net6.0\ZMS.Services.Abstractions.csproj.CoreCompileInputs.cache
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\obj\Debug\net6.0\ZMS.Services.Abstractions.csproj.CopyComplete
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\obj\Debug\net6.0\ZMS.Services.Abstractions.dll
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\obj\Debug\net6.0\refint\ZMS.Services.Abstractions.dll
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\obj\Debug\net6.0\ZMS.Services.Abstractions.pdb
+E:\Zoo Management System\ZooManagementSystem\ZMS.Services.Abstractions\obj\Debug\net6.0\ref\ZMS.Services.Abstractions.dll

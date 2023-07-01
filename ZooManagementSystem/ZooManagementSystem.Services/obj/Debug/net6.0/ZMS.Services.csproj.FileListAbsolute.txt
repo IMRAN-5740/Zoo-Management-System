@@ -15,3 +15,5 @@ E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Services\obj\De
 E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Services\obj\Debug\net6.0\refint\ZMS.Services.dll
 E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Services\obj\Debug\net6.0\ZMS.Services.pdb
 E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Services\obj\Debug\net6.0\ref\ZMS.Services.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Services\bin\Debug\net6.0\ZMS.Services.Abstractions.dll
+E:\Zoo Management System\ZooManagementSystem\ZooManagementSystem.Services\bin\Debug\net6.0\ZMS.Services.Abstractions.pdb

@@ -1071,6 +1071,19 @@
         "runtime": {
           "bin/placeholder/ZMS.Models.dll": {}
         }
+      },
+      "ZMS.Services.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ZMS.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZMS.Services.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZMS.Services.Abstractions.dll": {}
+        }
       }
     }
   },
@@ -3250,12 +3263,18 @@
       "type": "project",
       "path": "../ZooManagementSystem.Models/ZMS.Models.csproj",
       "msbuildProject": "../ZooManagementSystem.Models/ZMS.Models.csproj"
+    },
+    "ZMS.Services.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../ZMS.Services.Abstractions/ZMS.Services.Abstractions.csproj",
+      "msbuildProject": "../ZMS.Services.Abstractions/ZMS.Services.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "ZMS.Databases >= 1.0.0",
-      "ZMS.Models >= 1.0.0"
+      "ZMS.Models >= 1.0.0",
+      "ZMS.Services.Abstractions >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3285,6 +3304,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj": {
+              "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj"
+            },
             "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\ZMS.Databases.csproj": {
               "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Databases\\ZMS.Databases.csproj"
             },

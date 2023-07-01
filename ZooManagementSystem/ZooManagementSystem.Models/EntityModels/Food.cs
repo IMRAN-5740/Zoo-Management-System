@@ -11,8 +11,6 @@ namespace ZMS.Models.EntityModels
 {
     public class Food
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
         [DisplayName("Food Name")]

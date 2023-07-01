@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using ZMS.Databases.Data;
+using ZMS.Services.Abstractions;
+using ZMS.Services.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +13,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     string connectionString = "Server=MOHAMMAD-IMRAN;Database=ZooManagementSystem;User Id=sa;Password=imran;TrustServerCertificate=True;MultipleActiveResultSets=true";
     options.UseSqlServer(connectionString);
 });
+builder.Services.AddTransient<IAnimalFoodService,AnimalFoodService>();
+builder.Services.AddTransient<IAnimalService, AnimalService>();
+builder.Services.AddTransient<IFoodService, FoodService>();
 
+
+builder.Services.AddMvc();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

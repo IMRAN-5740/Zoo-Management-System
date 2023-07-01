@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ZMS.Services.Abstractions\ZMS.Services.Abstractions.csproj" />
     <ProjectReference Include="..\ZooManagementSystem.Databases\ZMS.Databases.csproj" />
     <ProjectReference Include="..\ZooManagementSystem.Models\ZMS.Models.csproj" />
   </ItemGroup>

@@ -9,7 +9,8 @@
       "ZMS.Services/1.0.0": {
         "dependencies": {
           "ZMS.Databases": "1.0.0",
-          "ZMS.Models": "1.0.0"
+          "ZMS.Models": "1.0.0",
+          "ZMS.Services.Abstractions": "1.0.0"
         },
         "runtime": {
           "ZMS.Services.dll": {}
@@ -625,6 +626,14 @@
         "runtime": {
           "ZMS.Models.dll": {}
         }
+      },
+      "ZMS.Services.Abstractions/1.0.0": {
+        "dependencies": {
+          "ZMS.Models": "1.0.0"
+        },
+        "runtime": {
+          "ZMS.Services.Abstractions.dll": {}
+        }
       }
     }
   },
@@ -1074,6 +1083,11 @@
       "sha512": ""
     },
     "ZMS.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZMS.Services.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

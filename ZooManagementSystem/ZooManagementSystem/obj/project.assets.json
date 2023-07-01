@@ -1186,13 +1186,27 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "ZMS.Databases": "1.0.0",
-          "ZMS.Models": "1.0.0"
+          "ZMS.Models": "1.0.0",
+          "ZMS.Services.Abstractions": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ZMS.Services.dll": {}
         },
         "runtime": {
           "bin/placeholder/ZMS.Services.dll": {}
+        }
+      },
+      "ZMS.Services.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ZMS.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZMS.Services.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZMS.Services.Abstractions.dll": {}
         }
       },
       "ZMS.ViewModels/1.0.0": {
@@ -3565,6 +3579,11 @@
       "path": "../ZooManagementSystem.Services/ZMS.Services.csproj",
       "msbuildProject": "../ZooManagementSystem.Services/ZMS.Services.csproj"
     },
+    "ZMS.Services.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../ZMS.Services.Abstractions/ZMS.Services.Abstractions.csproj",
+      "msbuildProject": "../ZMS.Services.Abstractions/ZMS.Services.Abstractions.csproj"
+    },
     "ZMS.ViewModels/1.0.0": {
       "type": "project",
       "path": "../ZooManagementSystem.ViewModels/ZMS.ViewModels.csproj",
@@ -3576,6 +3595,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.8",
       "ZMS.Models >= 1.0.0",
       "ZMS.Services >= 1.0.0",
+      "ZMS.Services.Abstractions >= 1.0.0",
       "ZMS.ViewModels >= 1.0.0"
     ]
   },
@@ -3607,6 +3627,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj": {
+              "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZMS.Services.Abstractions\\ZMS.Services.Abstractions.csproj"
+            },
             "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj": {
               "projectPath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj"
             },
