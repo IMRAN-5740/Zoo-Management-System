@@ -18,5 +18,6 @@ namespace ZMS.Models.EntityModels
         [Required]
         [DisplayName("Food Price")]
         public double Price { get; set; }
+        public virtual ICollection<AnimalFood> AnimalFoods { get; set; }
     }
 }

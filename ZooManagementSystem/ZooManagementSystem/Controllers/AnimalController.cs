@@ -49,6 +49,10 @@ namespace ZooManagementSystem.Controllers
 
         public IActionResult Edit(int? id)
         {
+            if(id==null)
+            {
+                return NotFound();
+            }
             var entity = _service.GetFirstOrDefault(data => data.Id == id);
             if(entity == null)
             {
@@ -71,7 +75,7 @@ namespace ZooManagementSystem.Controllers
                 {
                     checkEntity.Id = entity.Id;
                     checkEntity.Name = entity.Name; 
-                    checkEntity.Quantity = entity.Quantity;
+                   
                     checkEntity.Origin = entity.Origin;
                    
                     bool isSaved = _service.Update(checkEntity);
@@ -86,6 +90,10 @@ namespace ZooManagementSystem.Controllers
 
         public IActionResult Details(int? id)
         {
+            if (id == null)
+            {
+                return NotFound();
+            }
             var entity = _service.GetFirstOrDefault(data => data.Id == id);
             if (entity == null)
             {
@@ -96,6 +104,10 @@ namespace ZooManagementSystem.Controllers
 
         public IActionResult Delete(int?id) 
         {
+            if (id == null)
+            {
+                return NotFound();
+            }
             var entity = _service.GetFirstOrDefault(data => data.Id == id);
             if (entity == null)
             {
@@ -115,11 +127,6 @@ namespace ZooManagementSystem.Controllers
                 }
                 else
                 {
-                    //checkEntity.Id = entity.Id;
-                    //checkEntity.Name = entity.Name;
-                    //checkEntity.Quantity = entity.Quantity;
-                    //checkEntity.Origin = entity.Origin;
-
                     bool isSaved = _service.Remove(checkEntity);
                     if (isSaved)
                     {

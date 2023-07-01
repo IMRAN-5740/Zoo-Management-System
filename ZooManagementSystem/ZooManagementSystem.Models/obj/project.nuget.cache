@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QUm9I9+dDbdrywjSL5RjPikJAkrFQBcSnLh2utfBhDzsHCI+yV1zWV3xjVy//lISM17wbvSjX9mYE7HJ/rJZCw==",
+  "dgSpecHash": "FgYTKOmgB6rz3PPJXKUFJ4qrfzy2lwfKVR+GLOYi8JQASkCe7uvYMpy2GSjLhlcKKqUaX0x4tQduvjVnMjCGuQ==",
   "success": true,
   "projectFilePath": "E:\\Zoo Management System\\ZooManagementSystem\\ZooManagementSystem.Models\\ZMS.Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\imran\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

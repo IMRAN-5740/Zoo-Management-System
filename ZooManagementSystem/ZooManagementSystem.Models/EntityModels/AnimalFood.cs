@@ -15,14 +15,14 @@ namespace ZMS.Models.EntityModels
         [ForeignKey("Animal")]
         [Required]
         public int AnimalId { get; set; }
-        public virtual Animal? Animal { get; set; }
+        public virtual Animal Animal { get; set; }
         [ForeignKey("Food")]
         [Required]
         public int FoodId { get; set; }
         public virtual Food Food { get; set; }
         [Required]
         [DisplayName("Animal Food Quantity")]
-        public double Quantity { get; set; }
+        public int Quantity { get; set; }
        
     }
 }

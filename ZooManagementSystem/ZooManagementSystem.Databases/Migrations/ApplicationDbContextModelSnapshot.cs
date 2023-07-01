@@ -31,11 +31,13 @@ namespace ZMS.Databases.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Origin")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
@@ -59,8 +61,8 @@ namespace ZMS.Databases.Migrations
                     b.Property<int>("FoodId")
                         .HasColumnType("int");
 
-                    b.Property<double>("Quantity")
-                        .HasColumnType("float");
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -94,13 +96,13 @@ namespace ZMS.Databases.Migrations
             modelBuilder.Entity("ZMS.Models.EntityModels.AnimalFood", b =>
                 {
                     b.HasOne("ZMS.Models.EntityModels.Animal", "Animal")
-                        .WithMany()
+                        .WithMany("AnimalFoods")
                         .HasForeignKey("AnimalId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("ZMS.Models.EntityModels.Food", "Food")
-                        .WithMany()
+                        .WithMany("AnimalFoods")
                         .HasForeignKey("FoodId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -108,6 +110,16 @@ namespace ZMS.Databases.Migrations
                     b.Navigation("Animal");
 
                     b.Navigation("Food");
+                });
+
+            modelBuilder.Entity("ZMS.Models.EntityModels.Animal", b =>
+                {
+                    b.Navigation("AnimalFoods");
+                });
+
+            modelBuilder.Entity("ZMS.Models.EntityModels.Food", b =>
+                {
+                    b.Navigation("AnimalFoods");
                 });
 #pragma warning restore 612, 618
         }

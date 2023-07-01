@@ -31,6 +31,7 @@
                 <th>Serial No</th>
                 <th>@Html.DisplayNameFor(c=>c.Name)</th>
                 <th>@Html.DisplayNameFor(c=>c.Origin)</th>
+                @*  <th>@Html.DisplayNameFor(c=>c.Food)</th>*@
                 <th>@Html.DisplayNameFor(c=>c.Quantity)</th>
                 
                 <th>Action</th>
@@ -44,6 +45,7 @@
                     <td>@(serialNo++)</td>
                     <td>@data.Name</td>
                     <td>@data.Origin</td>
+                    @*  <td>@data.Food</td>*@
                     <td>@data.Quantity</td>
                   
                     <partial name="_ButtonPartial" model="@data.Id" />
