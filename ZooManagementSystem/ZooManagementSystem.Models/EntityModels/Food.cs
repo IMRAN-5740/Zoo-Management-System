@@ -11,6 +11,10 @@ namespace ZMS.Models.EntityModels
 {
     public class Food
     {
+        public Food()
+        {
+            AnimalFoods=new List<AnimalFood>();
+        }
         public int Id { get; set; }
         [Required]
         [DisplayName("Food Name")]

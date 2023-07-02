@@ -11,6 +11,7 @@ namespace ZMS.Models.EntityModels
 {
     public class AnimalFood
     {
+        
         public int Id { get; set; }
         [ForeignKey("Animal")]
         [Required]
@@ -22,7 +23,7 @@ namespace ZMS.Models.EntityModels
         public virtual Food Food { get; set; }
         [Required]
         [DisplayName("Animal Food Quantity")]
-        public int Quantity { get; set; }
+        public double Quantity { get; set; }
        
     }
 }

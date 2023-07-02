@@ -112,11 +112,6 @@ namespace ZooManagementSystem.Controllers
                 }
                 else
                 {
-                    //checkEntity.Id = entity.Id;
-                    //checkEntity.Name = entity.Name;
-                    //checkEntity.Quantity = entity.Quantity;
-                    //checkEntity.Origin = entity.Origin;
-
                     bool isSaved = _service.Remove(checkEntity);
                     if (isSaved)
                     {

@@ -12,6 +12,10 @@ namespace ZMS.Models.EntityModels
 {
     public  class Animal
     {
+        public Animal()
+        {
+            AnimalFoods = new List<AnimalFood>();
+        }
         public int Id { get; set; }
         [Required]
         [StringLength(50)]
