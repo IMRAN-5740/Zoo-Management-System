@@ -24,6 +24,8 @@ namespace ZMS.Models.EntityModels
         [Required]
         [DisplayName("Animal Food Quantity")]
         public double Quantity { get; set; }
-       
+        public List<SelectListItem> ListAnimal { get; set; }
+        public List<SelectListItem> ListFood { get; set; }
+
     }
 }

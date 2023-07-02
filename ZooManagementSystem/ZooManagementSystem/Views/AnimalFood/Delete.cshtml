@@ -1,0 +1,155 @@
+﻿@model E_Library.Models.LibraryBook.BookDeleteVM
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 style="text-align:center;color:red">Book Delete Form</h1>
+
+<style>
+    #Design{
+        color:green;
+        font-size:larger;
+    }
+</style>
+
+<div class="row" style="border:medium;color:orangered">
+   
+    <form asp-action="Delete" method="post" enctype="multipart/form-data">
+        <div class="p-4 rounded border row"  >
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="col-8">
+
+                <div class="form-group row">
+                    <div class="col-4" id="Design">
+                        <label asp-for="BookName"></label>
+                    </div>
+                    <div class="col-8">
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="Picture" />
+                        <input asp-for="BookName" readonly="readonly" class="form-control" />
+
+                    </div>
+                    <span asp-validation-for="BookName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4" id="Design">
+                        <label asp-for="BookCode"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="BookCode" readonly="readonly" class="form-control" />
+
+                    </div>
+                    <span asp-validation-for="BookCode" class="text-danger"></span>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4" id="Design">
+                        <label asp-for="@Model.Authors.AuthorName"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="@Model.Authors.AuthorName" readonly="readonly" class="form-control" />
+
+                    </div>
+                    <span asp-validation-for="@Model.Authors.AuthorName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4" id="Design">
+                        <label asp-for="@Model.Categories.CategoryName"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="@Model.Categories.CategoryName" readonly="readonly" class="form-control"  />
+
+                    </div>
+                    <span asp-validation-for="@Model.Categories.CategoryName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4" id="Design">
+                        <label asp-for="PublicationName"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="PublicationName" readonly="readonly" class="form-control" />
+
+                    </div>
+                    <span asp-validation-for="PublicationName" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group row">
+                    <div class="col-4" id="Design">
+                        <label asp-for="Price" ></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Price" readonly="readonly" class="form-control" />
+
+                    </div>
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4" id="Design">
+                        <label asp-for="Quantity"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Quantity" readonly="readonly" class="form-control" />
+
+                    </div>
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+
+                
+
+                <div class="form-group row">
+                    <div class="col-4" id="Design">
+                        <label asp-for="IsAvailable"></label>
+                    </div>
+                    @if(Model.IsAvailable==false)
+                    {
+                        <div class="col-8" style="color:red;font-size:larger">
+                            Stock Out
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-8" style="color:green;font-size:larger">
+                            Stock Available
+                        </div>
+                    }
+
+                    <span asp-validation-for="IsAvailable" class="text-danger"></span>
+                </div>
+                <br />
+                <h4 style="color:red;text-align:center">Are you want to delete this user permenantly ?</h4>
+                <div class="form-group text-center">
+                    <input type="submit" class="btn btn-outline-danger" value="Delete Data" />
+                    <a asp-action="Index" class="btn btn-outline-info"> <i class="fa-solid fa-arrow-right-to-bracket"></i>&nbsp;Back to List</a>
+                </div>
+            </div>
+
+            <div class="col-1"></div>
+            <div class="col-3">
+                <h3 style="text-align:center ;color:red">Book Picture</h3>
+                <img src="~/@Model.Picture" width="300" height="250" />
+                @if (Model.IsAvailable)
+                {
+                    <img src="~/BookImages/in-stock.jpg" width="300" height="70" />
+                }
+                else
+                {
+                    <img src="~/BookImages/out-of-stock.jpg" width="300" height="70" />
+                }
+            </div>
+            @*<div class="col-1" style="color:red;font-size:larger">Book Picture</div>
+            <div class="col-3">
+                <img src="~/@Model.Picture" width="100" />
+            </div>*@
+
+
+        </div>
+    </form>
+</div>

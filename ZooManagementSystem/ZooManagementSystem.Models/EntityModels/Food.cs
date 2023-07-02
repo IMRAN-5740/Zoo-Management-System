@@ -23,5 +23,15 @@ namespace ZMS.Models.EntityModels
         [DisplayName("Food Price")]
         public double Price { get; set; }
         public virtual ICollection<AnimalFood> AnimalFoods { get; set; }
+
+        public static implicit operator Food(List<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static implicit operator Food(List<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -48,7 +48,9 @@ namespace ZMS.Services.Services.Base
         {
             return _db.Set<T>().FirstOrDefault(predicate);
         }
-    
+       
+        
+
 
     }
 }

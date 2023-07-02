@@ -1,0 +1,63 @@
+﻿
+@model IEnumerable<AnimalFood>
+
+@{
+    ViewData["Title"] = "Index";
+    int serialNo = 1;
+}
+<h1 style="color:green; text-align:center">AnimalFood  Index Form</h1>
+<br />
+<a class="btn btn-success" asp-action="Create" asp-controller="AnimalFood"> <i class="fa-solid fa-arrow-right-to-bracket"></i>&nbsp;New AnimalFood</a>
+
+<table border="3" class="table table-bordered table-hover table-striped">
+    <thead class="text-center">
+        <tr>
+            <th>Serial No</th>
+           
+            <th>
+                 @Html.DisplayNameFor(model => model.Animal.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Food.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+           
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody class="text-center">
+        @if(Model!=null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@(serialNo++)</td>
+
+
+                    <td>
+
+                        @Html.DisplayFor(model => item.Animal.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.Food.Name)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem =>item.Quantity)
+                    </td>
+
+
+                    <partial name="_ButtonPartial" model="@item.Id"></partial>
+                </tr>
+            }
+        }
+        else
+        {
+            <h4 class="text-center"> No Record Found</h4>
+
+        }
+        
+    </tbody>
+</table>
